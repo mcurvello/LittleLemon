@@ -19,14 +19,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: 50,
+    fontSize: 40,
     fontWeight: "600",
     padding: 40,
     color: "#edefee",
     textAlign: "center",
   },
   description: {
-    fontSize: 38,
+    fontSize: 24,
     fontWeight: "400",
     padding: 30,
     color: "#edefee",
