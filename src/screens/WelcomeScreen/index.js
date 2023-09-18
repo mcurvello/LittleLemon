@@ -29,12 +29,6 @@ export default function WelcomeScreen() {
         and classic cocktails in a lively but casual environment. We would love
         to hear more about your experience with us!
       </Text>
-      <TextInput
-        style={styles.inputBox}
-        value={firstName}
-        onChangeText={setFirstName}
-        placeholder="First Name"
-      />
     </ScrollView>
   );
 }
@@ -42,6 +36,7 @@ export default function WelcomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#495e57",
   },
   headerWrapper: {
     flexDirection: "row",
